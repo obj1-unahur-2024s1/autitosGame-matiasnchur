@@ -15,6 +15,7 @@ program miPrimerWollokGame {
 	keyboard.left().onPressDo{auto.moveLeft()}
 	keyboard.up().onPressDo{auto.moveUp()}
 	keyboard.down().onPressDo{auto.moveDown()}
+	keyboard.c().onPressDo{auto.changeCar()}
 
 	// que arranque el juego!
 	game.start()
